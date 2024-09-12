@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<TAREA___CRUD_CON_EF.Models.Mascota> DataMascota {get; set; }
 }
